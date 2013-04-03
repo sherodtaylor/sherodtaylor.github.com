@@ -10,7 +10,7 @@
     <nav>
         <ul>
            <li class="active"><a href="#">Home</a></li>
-           <li><a href="http://www.sherodtaylorblog.herokuapp.com">Blog</a></li>
+           <li><a href="http://sherodtaylorblog.herokuapp.com">Blog</a></li>
        </ul>
     </nav>
     <div class="hero-unit">
@@ -35,8 +35,10 @@
      <div class="row">
       <div class="span6">
         <p>Here are a list of my Social Networks</p>
+        <div class="social-button">
           <a href="http://www.linkedin.com/in/sherodtaylor"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Sherod Taylor's profile on LinkedIn"/></a>
           <a href="https://twitter.com/sherod_taylor" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @sherod_taylor</a>
+        </div>
        </div>
      <div class="span6">
         <p>Goals for this year:</p>
@@ -56,6 +58,13 @@
        height: 100%;  
        border-radius: 15px;
      }
+     .social-button a {
+       float: left;
+       width: 100px;
+       height: 20px;
+    } 
+       
+     
      .container .hero-unit p {
        font-size: 40px;
        line-height: 60px;
@@ -111,12 +120,11 @@
           font-weight: bold;
           color: #333;
         }
+     
   </style>
-      <script src="js/jquery.js"></script>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script src="js/jquery.backstretch.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      <script src="jquery.backstretch.min.js"></script>
-      <script src="jquery.backstretch.js"></script>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       <script>
     $.backstretch("img/seattle.jpg");
