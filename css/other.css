@@ -1,0 +1,46 @@
+#wrapper {
+  margin: 20px 70px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  height: 100%;
+
+}
+
+#wrapper h1 {
+font-family: 'familyOleo Script', cursive;
+font-size: 100px;
+padding: 70px 50px 0 0;
+text-align: center;
+
+}
+
+#wrapper h2 {
+font-size: 40px;
+padding: 40px 30px 0 0;
+text-align: center;
+line-height: 40px; 
+}
+
+#wrapper article h2 {
+font-size: 50px;
+padding: 40px 30px 0 0;
+text-align: center;
+line-height: 70px; 
+}
+
+#wrapper section {
+padding: 30px 30px 30px 30px;
+    text-align: center;
+font-size: 30px; 
+}
+
+#wrapper footer {
+padding: 0 0 90px 0;
+}
+
+#wrapper article {
+padding: 70px 30px 30px 30px;
+text-alignlign: center;
+font-size: 20px;
+
+}
