@@ -10,55 +10,57 @@
     <nav>
         <ul>
            <li class="active"><a href="#">Home</a></li>
-           <li><a href="www.sherodtaylorblog.herokuapp.com">Blog</a></li>
+           <li><a href="http://www.sherodtaylorblog.herokuapp.com">Blog</a></li>
        </ul>
     </nav>
-  <div class="wrapper">
     <div class="hero-unit">
       <div class="row">
         <div class="span9">
-    <p>
+           <p>
   I'm a student at <a href="ga.co">General Assembly</a> I am learning Full Stack Web Development.
   I am from Seattle and I taught myself how to code a couple years ago when I traveled to Australia
   I'm a self taught web developer interested in a junior position with any start up or company.
-    </p>
-  </div>
-  </div>
+           </p>
+         </div>
+       </div>
       <div class="row">
       <div class="span3 offset3">
          <button class="btn btn-large btn-primary" type="button">Catch me on Github</button>
       </div>
-</div>
-      <div class="span3">
-        <p>Here are a list of my Social Networks</p>
-        <ul>
-          <li> <a href="github.com/sherodtaylor">Gitub</a></li>
-          <li> <a href="twitter.com/sherod_taylor">Twitter</a></li>
-          <li> <a href="linkedin.com/in/sherodtaylor">Linkedin</a></li>
-        </ul>
-     </div>
-     </div>
+    </div>
+ </div>  <!-- hero-unit -->
+</div>  <!-- container -->
+<div class="wrapper"
+ <div class="container">
      <div class="row">
-     <div class="span3">
+      <div class="span6">
+        <p>Here are a list of my Social Networks</p>
+          <a href="http://www.linkedin.com/in/sherodtaylor"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Sherod Taylor's profile on LinkedIn"/></a>
+          <a href="https://twitter.com/sherod_taylor" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @sherod_taylor</a>
+       </div>
+     <div class="span6">
         <p>Goals for this year:</p>
         <ol>
           <li>Get a Junior Dev Position</li>
           <li>Finishing GA course</li>
         </ol>
+      </div>
     </div>
-   </div>
- </div>
+  </div>
 </div>
   <style type="text/css">
      .wrapper {
        margin: 20px 70px;
-       background: rgba(100, 100, 100, 0.80);
+       background: rgba(225, 225, 225, 0.5); 
        border-radius: 20px;
-       height: 100%;  }
+       height: 100%;  
+       border-radius: 15px;
+     }
      .container .hero-unit p {
        font-size: 40px;
        line-height: 60px;
        text-align: center;
+
      
      }
 
@@ -71,7 +73,6 @@
      }
       
      nav ul {
-       overflow: auto;
        list-style-type: none;
        text-align: center;
 
@@ -112,9 +113,11 @@
         }
   </style>
       <script src="js/jquery.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="jquery.backstretch.min.js"></script>
       <script src="jquery.backstretch.js"></script>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       <script>
     $.backstretch("img/seattle.jpg");
       </script>
